@@ -1,0 +1,24 @@
+{
+  "name": "cs2-assets-tracker",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "extract": "node src/index.js --force",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renzynx/cs2-assets-tracker.git"
+  },
+  "author": "renzynx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/renzynx/cs2-assets-tracker/issues"
+  },
+  "homepage": "https://github.com/renzynx/cs2-assets-tracker#readme",
+  "description": "",
+  "dependencies": {
+    "vpk": "^0.2.0"
+  }
+}
