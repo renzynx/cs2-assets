@@ -2,8 +2,8 @@ name: Update CS2 Assets
 
 on:
   schedule:
-    # Run every 6 hours
-    - cron: "0 */6 * * *"
+    # Run at 12 am every other day
+    - cron: "0 0 1-31/2 * *"
   workflow_dispatch:
     inputs:
       force:
